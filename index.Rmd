@@ -9,7 +9,11 @@ output:
     center: true
 ---
  
+## Carl Boettiger
 
+- UC Berkeley, Dept of Environmental Science, Policy, and Management
+- web: <http://carlboettiger.info>
+- twitter: [@cboettig](https://twitter.com/cboettig)
 
 ## A brief history of reproducibility
 
