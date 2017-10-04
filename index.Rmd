@@ -196,6 +196,9 @@ Garijo et al; 2013 (Phil Bourne's lab, NIH Data Science Director)
 ## TOWARDS SOLUTIONS
 
 
+
+
+
 ## The Computational Compendium
 
 ### Packaging data analytical work reproducibly using R (and friends)
@@ -210,6 +213,9 @@ Garijo et al; 2013 (Phil Bourne's lab, NIH Data Science Director)
 ![](figures/knitr.png) ![](figures/rmarkdown.png)
 
 ## GitHub
+
+![](figures/ben-github.png)
+
 
 ## R package structure
 
@@ -270,7 +276,50 @@ analysis/
 ![](figures/zenodo_switch.png)
 
 
-## ADOPTION?
+## ADOPTION: SO HOW ARE WE DOING?
+
+
+## Spectrum
+
+![](figures/peng-spectrum.jpg)
+
+
+## Spectrum
+
+![](figures/marwick-spectrum.png)
+
+
+
+## Incentives
+
+![](figures/stodden-share.png)
+
+<small><small>Stodden (IASSIST 2010) sampled American academics registered at the Machine Learning conference NIPS (134 responses from 593 requests (23%). Red = communitarian norms, Blue = private incentives</small></small>
+
+
+## Incentives
+
+![](figures/stodden-noshare.png)
+
+<small><small>Stodden (IASSIST 2010) sampled American academics registered at the Machine Learning conference NIPS (134 responses from 593 requests (23%). Red = communitarian norms, Blue = private incentives</small></small>
+
+
+## Data archiving
+
+![](figures/dryad.jpg)
+
+
+![](figures/dryad-journals.png)
+
+## How about sharing code?
+
+![](figures/mozilla-science.png)
+
+
+## Publishing Software?
+
+![](figures/joss.png)
+
 
 
 ## The tools are there, we just need to use them.
@@ -291,6 +340,8 @@ Significant usability gaps remain!
 
 <https://ropensci.org/blog/2014/06/09/reproducibility/>
 
+
+
 ## What is useful?
 
 > Myth 5: GUIs are the way to go, because scientists might actually use easy-to-use software.
@@ -300,19 +351,38 @@ Significant usability gaps remain!
 - Existing context / language
 
 
-## Incentives
-
-![](figures/stodden-share.png)
-
-<small><small>Stodden (IASSIST 2010) sampled American academics registered at the Machine Learning conference NIPS (134 responses from 593 requests (23%). Red = communitarian norms, Blue = private incentives</small></small>
 
 
-## Incentives
+## CONCLUSIONS: LOOKING FORWARD
 
-![](figures/stodden-noshare.png)
+## Why reproducibility?
 
-<small><small>Stodden (IASSIST 2010) sampled American academics registered at the Machine Learning conference NIPS (134 responses from 593 requests (23%). Red = communitarian norms, Blue = private incentives</small></small>
+![](figures/global-change.jpg)
 
+## Why reproducibility: most of the data is yet to come
+
+![](figures/growth-climate-data.png)
+
+
+<!-- 
+
+MORE STUFF TO COVER:
+
+- Data Archiving.  Data Dryad, community success?  DataONE; Artic Data.  
+
+- Publish Your Code, It's Good Enough vs Mozilla Science / Best Practices.  Does raising the bar hurt progress?
+
+- Recognitition for "alternate" products of research
+- Data/Software Citations: Does it really help?
+
+- the Software Paper: a promising hack?
+
+- Raising the bar: software review.  Compendium review?
+
+- Future as bigger synthetic science, not just reproducible
+
+
+-->
 
 
 
