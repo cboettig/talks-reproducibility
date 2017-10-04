@@ -6,6 +6,7 @@ output:
   revealjs::revealjs_presentation:
     incremental: true
     transition: none
+    center: true
 ---
  
 
@@ -131,6 +132,9 @@ Solves several key problems:
 
 ![](figures/trouble.jpg)
 
+## TALES FROM THE TRENCHES
+
+
 ## Reproduciblity attempts
 
 ### Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome
@@ -140,20 +144,24 @@ Garijo et al; 2013 (Phil Bourne's lab, NIH Data Science Director)
 <https://doi.org/10.1371/journal.pone.0080278>
 
 
-## Garijo et al
+## Bourne Lab
 
 ![](figures/bourne1.png)
 
 
-## Garijo et al
+## Bourne Lab
 
 ![](figures/bourne2.png)
 
 
-## Garijo et al
+## Bourne Lab
 
 ![](figures/bourne3.png)
 
+
+## Bourne Lab
+
+![](figures/bourne-concludes.png)
 
 ## NSECent Informatics Team 
 
@@ -170,7 +178,7 @@ Garijo et al; 2013 (Phil Bourne's lab, NIH Data Science Director)
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## Arizona reproducibility study
+## Arizona reproducibility study: software realities
 
 ![](figures/arizona.png)
 
@@ -185,10 +193,16 @@ Garijo et al; 2013 (Phil Bourne's lab, NIH Data Science Director)
 <https://doi.org/10.1111/j.1365-294X.2012.05754.x>
 
 
+## TOWARDS SOLUTIONS
 
 
+## The Computational Compendium
 
-## Computational Compendium
+### Packaging data analytical work reproducibly using R (and friends)
+
+<http://doi.org/10.1080/00031305.2017.1375986>
+
+![](figures/ben.jpg) ![](figures/lincoln.png)
 
 
 ## Literate Programming
@@ -199,6 +213,29 @@ Garijo et al; 2013 (Phil Bourne's lab, NIH Data Science Director)
 
 ## R package structure
 
+```
+DESCRIPTION
+README.md
+.travis.md
+R/
+analysis/
+|
+├── paper/
+│   ├── paper.Rmd         # this is the main document to edit
+│   ├── references.bib    # this contains the reference list information
+│   └── journal-of-archaeological-science.csl
+|                         # this sets the style of citations & reference list
+├── figures/
+|
+├── data/
+│   ├── raw_data/       # data obtained from elswhere
+│   └── derived_data/   # data generated during the analysis
+|
+└──  templates
+    ├── template.docx  # used to style the output of the paper.Rmd
+    └── template.Rmd
+```
+
 ## Continuous Integration
 
 ![](figures/travis-students.png)
@@ -206,6 +243,9 @@ Garijo et al; 2013 (Phil Bourne's lab, NIH Data Science Director)
 ## Docker
 
 ![](figures/rocker-project.png)
+
+- <http://dx.doi.org/10.1145/2723872.2723882>
+
 
 
 ## Rocker Project 
@@ -217,6 +257,7 @@ Garijo et al; 2013 (Phil Bourne's lab, NIH Data Science Director)
 - Leverage reproducible sources: `debian:stable`, CRAN snapshots
 - Focus on usability (RStudio interface, easy to extend)
 - Actively test, actively maintain
+- <https://rocker-project.org>
 
 
 
@@ -227,6 +268,9 @@ Garijo et al; 2013 (Phil Bourne's lab, NIH Data Science Director)
 ## Zenodo Archiving
 
 ![](figures/zenodo_switch.png)
+
+
+## ADOPTION
 
 
 ## The tools are there, we just need to use them.
